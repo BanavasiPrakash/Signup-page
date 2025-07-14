@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.A {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.B {
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  text-align: center;
+}
+
+.C {
+  margin-bottom: 5px;
+}
+
+.D {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.E input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.F {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  border:black;
+  border-radius: 70px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.F:hover {
+  background-color: #0056b3;
+}
+
+.G {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.G input {
+  margin-right: 5px;
+}
+
+.H {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.I {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.I .J, .I .K, .I .L {
+  width: 30%;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.I .J {
+  background-color: #db4437;
+  color: #fff;
+}
+
+.I .J:hover {
+  background-color: #c23321;
+}
+
+.I .K {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.I .K:hover {
+  background-color: #005983;
+}
+
+.I .L {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.I .L:hover {
+  background-color: #5a6268;
+}
+
+.M {
+  font-size: 13px;
+}
+
+.M a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+hr {
+  margin: 25px 0 10px 0;
+  border: 0;
+  border-top: 1px solid #0a0a0a;
+}
